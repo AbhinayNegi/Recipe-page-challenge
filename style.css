@@ -43,6 +43,7 @@ img {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 2.2rem;
+    color: grey;
 }
 
 .preparation-time-card {
@@ -65,22 +66,54 @@ img {
 
 .preparation-list li{
     font-family: "Outfit", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 2.5rem;
     letter-spacing: .5px;
     margin-top: 0.5rem;
+    color: grey;
 }
 
 .preparation-list strong{
+    /* The position relative, left and padding-right will control how far right we want text from the list icons */
+    position: relative;
+    left: 1.6rem;
+    padding-right: 1.5rem;
     font-family: "Outfit", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     line-height: 2.5rem;
     letter-spacing: 0.5px;
+    color: hsl(24, 5%, 18%);
 }
 
 /* Increasing card container height */
 .preparation-list li:last-child{
     padding-bottom: 1.5rem;
+}
+
+.ingredients-heading {
+    font-size: 2.5rem;
+    color: #83432F;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.ingredients-list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.ingredients-list span{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    color: grey;
+    padding-left: 2rem;
+}
+
+.ingredients-list li{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 2.5rem;
 }
