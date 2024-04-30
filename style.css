@@ -101,10 +101,11 @@ img {
 
 .ingredients-list {
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
-.ingredients-list span{
+.ingredients-list div{
     font-family: "Outfit", sans-serif;
     font-size: 1.3rem;
     color: grey;
@@ -116,4 +117,8 @@ img {
     font-size: 1.3rem;
     color: black;
     line-height: 2.5rem;
+}
+
+hr {
+   
 }
