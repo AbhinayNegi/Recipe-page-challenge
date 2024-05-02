@@ -120,5 +120,44 @@ img {
 }
 
 hr {
-   
+    border: 0;
+    height: 1px;
+    /* I learned this */
+    background-image: linear-gradient(90deg, #b6b2b28a, #ccc);
+    margin-bottom: 1.8rem;
+}
+
+.instruction-heading {
+    font-size: 2.5rem;
+    color: #83432F;
+    font-weight: 400;
+}
+
+.instruction-list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.instruction-list li{
+    color: #83432F;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+.instruction-list div{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: grey;
+    padding-left: 1.5rem;
+    line-height: 1.9rem;
+}
+
+.instruction-list strong{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    color: rgb(58, 57, 57);
 }
