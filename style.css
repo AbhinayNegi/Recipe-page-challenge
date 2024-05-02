@@ -32,6 +32,12 @@ img {
     font-weight: 400;
 }
 
+.heading {
+    font-size: 2.5rem;
+    color: #83432F;
+    font-weight: 400;
+}
+
 .recipe-info {
     border: 1px solid red;
     padding: 2rem;
@@ -160,4 +166,32 @@ hr {
     font-family: "Outfit", sans-serif;
     font-size: 1.3rem;
     color: rgb(58, 57, 57);
+}
+
+.nutrition-info-text {
+    margin-top: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 450;
+    line-height: 2.2rem;
+    color: grey;
+}
+
+td {
+    margin-top: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    color: #83432F;
+    column-gap: 2rem;
+}
+
+th {
+    margin-top: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 450;
+    line-height: 2.2rem;
+    color: grey;
 }
