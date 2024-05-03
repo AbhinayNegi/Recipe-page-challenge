@@ -1,197 +1,209 @@
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    font-size: 10px;
-    font-family: "Young Serif", serif;
-    /* font-family: "Outfit", sans-serif; */
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  font-family: "Young Serif", serif;
+  /* font-family: "Outfit", sans-serif; */
 }
 
 body {
-    background-color: hsl(30, 54%, 90%);
+  background-color: hsl(30, 54%, 90%);
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: hsl(0, 0%, 100%);
-    }
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .main-heading {
-    font-size: 3rem;
-    font-weight: 400;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
 .heading {
-    font-size: 2.5rem;
-    color: #83432F;
-    font-weight: 400;
+  font-size: 2.5rem;
+  color: #83432f;
+  font-weight: 400;
 }
 
 .recipe-info {
-    border: 1px solid red;
-    padding: 2rem;
+  border: 1px solid red;
+  padding: 2rem;
 }
 
 .recipe-overview-text {
-    margin-top: 1.5rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 2.2rem;
-    color: grey;
+  margin-top: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+  color: grey;
 }
 
 .preparation-time-card {
-    border-radius: 10px;
-    margin-top: 2rem;
-    background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  margin-top: 2rem;
+  background-color: hsl(330, 100%, 98%);
 }
 
 .preparation-time-card h2 {
-    font-size: 1.8rem;;
-    font-family: "Outfit", sans-serif;
-    color: rgb(177, 14, 177);
-    margin-left: 2rem;
-    padding-top: 1.5rem;
+  font-size: 1.8rem;
+  font-family: "Outfit", sans-serif;
+  color: rgb(177, 14, 177);
+  margin-left: 2rem;
+  padding-top: 1.5rem;
 }
 
 .preparation-list {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 
-.preparation-list li{
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    line-height: 2.5rem;
-    letter-spacing: .5px;
-    margin-top: 0.5rem;
-    color: grey;
+.preparation-list li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+  color: grey;
 }
 
-.preparation-list strong{
-    /* The position relative, left and padding-right will control how far right we want text from the list icons */
-    position: relative;
-    left: 1.6rem;
-    padding-right: 1.5rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 2.5rem;
-    letter-spacing: 0.5px;
-    color: hsl(24, 5%, 18%);
+.preparation-list strong {
+  /* The position relative, left and padding-right will control how far right we want text from the list icons */
+  position: relative;
+  left: 1.6rem;
+  padding-right: 1.5rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  letter-spacing: 0.5px;
+  color: hsl(24, 5%, 18%);
 }
 
 /* Increasing card container height */
-.preparation-list li:last-child{
-    padding-bottom: 1.5rem;
+.preparation-list li:last-child {
+  padding-bottom: 1.5rem;
 }
 
 .ingredients-heading {
-    font-size: 2.5rem;
-    color: #83432F;
-    font-weight: 400;
-    margin-top: 3rem;
+  font-size: 2.5rem;
+  color: #83432f;
+  font-weight: 400;
+  margin-top: 3rem;
 }
 
 .ingredients-list {
-    margin-top: 1rem;
-    margin-left: 2.5rem;
-    margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-.ingredients-list div{
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    color: grey;
-    padding-left: 2rem;
+.ingredients-list div {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  color: grey;
+  padding-left: 2rem;
 }
 
-.ingredients-list li{
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    color: black;
-    line-height: 2.5rem;
+.ingredients-list li {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  color: black;
+  line-height: 2.5rem;
 }
 
 hr {
-    border: 0;
-    height: 1px;
-    /* I learned this */
-    background-image: linear-gradient(90deg, #b6b2b28a, #ccc);
-    margin-bottom: 1.8rem;
+  border: 0;
+  height: 1px;
+  /* I learned this */
+  background-image: linear-gradient(90deg, #b6b2b28a, #ccc);
+  margin-bottom: 1.8rem;
 }
 
 .instruction-heading {
-    font-size: 2.5rem;
-    color: #83432F;
-    font-weight: 400;
+  font-size: 2.5rem;
+  color: #83432f;
+  font-weight: 400;
 }
 
 .instruction-list {
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-.instruction-list li{
-    color: #83432F;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    line-height: 4rem;
+.instruction-list li {
+  color: #83432f;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 4rem;
 }
 
-.instruction-list div{
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: grey;
-    padding-left: 1.5rem;
-    line-height: 1.9rem;
+.instruction-list div {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: grey;
+  padding-left: 1.5rem;
+  line-height: 1.9rem;
 }
 
-.instruction-list strong{
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    color: rgb(58, 57, 57);
+.instruction-list strong {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  color: rgb(58, 57, 57);
 }
 
 .nutrition-info-text {
-    margin-top: 2rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 450;
-    line-height: 2.2rem;
-    color: grey;
+  margin-top: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 450;
+  line-height: 2.2rem;
+  color: grey;
 }
 
-td {
-    margin-top: 2rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    line-height: 2.2rem;
-    color: #83432F;
-    column-gap: 2rem;
+.table-grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+
 }
 
-th {
-    margin-top: 2rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1.3rem;
-    font-weight: 450;
-    line-height: 2.2rem;
-    color: grey;
+.nutrition-value {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+  color: #83432f;
+  column-gap: 2rem;
+  text-align: center;
+}
+
+.nutrition {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 450;
+  line-height: 2.2rem;
+  color: grey;
+  width: 100px;
+  text-align: center;
+}
+
+table-grid-container hr {
+    margin-bottom: 0px;
 }
